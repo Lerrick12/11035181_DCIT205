@@ -1,7 +1,46 @@
 <!-- Same header and navigation as the home page -->
+<style>
 
-<body>
+    .container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%; 
+  padding: 20px; /
+}
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+    </style>
+<body><div class="container">
+    <img src="images.jpg" alt="School logo" style="width:100%;">
     <main>
+        <div class="content">
         <h1 align="center">Courses</h1>
         <p>The department has the following courses or programs which is being taught in the school.</p>
         <ul>
@@ -29,6 +68,8 @@
             <p>Use the link below to see all the available courses this department has to offer.</p>
 
 <p><a href ="index.html">Click here to see all available courses in the department </a></p>
+        </div>
+    </div>
 
             <footer> <nav>
                 <ul>
