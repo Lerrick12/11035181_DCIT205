@@ -1,19 +1,25 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: lightgrey ;
+
+header{
+    background-color: burlywood;
+    color: black;
 }
 
-header { background-image: url("download8.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: azure;
-    color: black;
-    text-align: center;
-    padding: 150px;
-}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .content {
+    position: relative;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
 nav {
     background-color: #333;
 }
@@ -35,14 +41,9 @@ nav a {
     text-decoration: none;
     color: white;
 }
-main { background-color: azure;
-    padding: 20px;
+h3{
+    background-color: azure;
+    color: black;
 }
 
-.container {
-    height: 200px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+

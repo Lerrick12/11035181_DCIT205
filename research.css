@@ -3,7 +3,7 @@ h1 { background-image: url("image8.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-color: lemonchiffon;
-    color: brown;
+    color: blue;
     text-align: center;
     padding: 200px;
 }
@@ -27,3 +27,18 @@ nav a {
     text-decoration: none;
     color: white;
 }
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .content {
+    position: relative;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }

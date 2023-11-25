@@ -3,16 +3,22 @@
 <head>
     <title>Computer Science Department</title>
     <link rel="stylesheet" type="text/css" href="index.css">
-    <script src="index.js"></script>
+    <script>const toTop = () => window.scrollTo({top:0, behavior:'smooth'})</script>
 </head>
 
 <body>
-   
+        
+    <video autoplay muted loop id="myVideo">
+  <source src="indexvideo.mp4" type="video/mp4">
+</video>
+        
+   <div class="content">
     <header>
-      <h1>UNIVERSITY OF LERRICKSVILLE</h1>
+    <img src="download8.jpg" style="float: left;" width="6.5%">
+      <h1 align="center">UNIVERSITY OF LERRICKSVILLE</h1>
 
       
-        <h2>Computer Science Department.</h2>
+        <h2 align="center">Computer Science Department.</h2>
     </header>
     <nav>
         <ul>
@@ -28,7 +34,7 @@
             <li><a href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
-    <h3>YOUR PATHWAY TO WORLD CLASS COMPUTER SCIENCE EDUCATION</h3>
+    <h3 align="center">YOUR PATHWAY TO WORLD CLASS COMPUTER SCIENCE EDUCATION</h3>
     <main>
         
         <p>Welcome to the Computer Science Department of Lerricksville University. We offer a wide range of courses and have a dedicated faculty.Our mission: Advancing knowledge, fostering innovation, and shaping the future of technology</p>
@@ -66,9 +72,8 @@
    
 
     <img src="image5.jpg" alt="life of an amazing student", width="30%"><br>
-<div class="container">
-        <button onclick="toTop">Back To Top</button>  
-</div>
+
+
     <br>
     <footer> <nav>
         <ul>
@@ -85,7 +90,8 @@
         </ul>
     </nav></footer>
     </main>
-   
+   </div>
+
 </body>
 </html>
 
