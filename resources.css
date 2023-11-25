@@ -7,6 +7,10 @@ h1 { background-image: url("download8.png");
     text-align: center;
     padding: 80px;
 }
+h3{
+    background-color: azure;
+    color: black;
+}
 nav {
     background-color: #333;
 }

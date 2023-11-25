@@ -51,3 +51,27 @@ h1 { background-image: url("download18.jpg");
     text-align: center;
     padding: 100px;
 }
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  #myVideot {
+
+    min-width: 40%;
+    min-height: 100%;
+  }
+  .content {
+    position: relative;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  h3{
+    background-color: azure;
+    color: black;
+}

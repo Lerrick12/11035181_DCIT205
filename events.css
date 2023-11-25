@@ -7,6 +7,10 @@
     text-align: center;
     padding: 100px;
 }
+h2{
+        background-color: azure;
+        color: black;
+}
 nav {
     background-color: #333;
 }
@@ -28,6 +32,6 @@ nav a {
     color: white;
 }
 
-main { background-color: lemonchiffon;
+main { background-color: rgb(163, 169, 170);
     padding: 20px;
 }
