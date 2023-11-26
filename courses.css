@@ -2,7 +2,7 @@ h1 { background-image: url("download18.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: azure;
+    background-color:azure;
     color: white;
     text-align: center;
     padding: 100px;
@@ -10,24 +10,22 @@ h1 { background-image: url("download18.jpg");
  
  body{
     background-color: lemonchiffon;
+    background-image: url('download8.jpg');
+    background-size: cover;
    }
-    .container {
-  position: relative;
-  max-width: 800px; 
-  margin: 0 auto; /
-}
+   .content {
+    position: relative;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+ 
 
-.container .content {
-  position: absolute; 
-  bottom: 0; 
-  background: rgb(0, 0, 0); 
-  background: rgba(0, 0, 0, 0.5); 
-  color: white; 
-  width: 100%; 
-  padding: 20px; /
-}
+
 nav {
-    background-color: #333;
+    background-color: black;
 }
 
 nav ul {
